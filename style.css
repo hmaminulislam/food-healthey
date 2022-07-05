@@ -43,3 +43,39 @@ body{
 .diet-picture img {
     width: 100%;
 }
+#about {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-me {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+.about-picture {
+    flex-basis: 40%;
+}
+.about-picture img {
+    width: 50%;
+}
+.about-text {
+    flex-basis: 40%;
+}
+.about-text h2 {
+    font-size: 35px;
+    color: #575757;
+    font-weight: 700;
+}
+.about-text p {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.about-text a {
+    background-image: linear-gradient(to right,#FBA24F, #FF1E1E);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50px;
+}
