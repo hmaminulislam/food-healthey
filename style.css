@@ -115,3 +115,34 @@ body{
 .recipies-item p {
     line-height: 28px;
 }
+.footer-top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
+    box-shadow: 5px 5px 20px #1d1d1d23;
+    padding: 50px;
+}
+.footer-item {
+    flex-basis: 28%;
+}
+.footer-item h2 {
+    font-size: 35px;
+    color: #1d1d1d;
+    line-height: 10px;
+}
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 50px;
+}
+footer h2 {
+    color: #575757;
+    font-size: 30px;
+}
+footer span {
+ color: #FBA24F;
+}
+footer p {
+    color: aliceblue;
+}
