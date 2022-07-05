@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.the-diet {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.diet-text {
+    margin-top: 50px;
+    flex-basis: 40%;
+}
+.diet-text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #575757;
+    text-shadow: 2px 2px #57575767;
+}
+.diet-text span {
+    color:#FBA24F
+}
+.diet-text p {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.diet-text a {
+    background-image: linear-gradient(to right,#FBA24F, #FF1E1E);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50px;
+}
+.diet-picture {
+    flex-basis: 40%;
+}
+.diet-picture img {
+    width: 100%;
+}
